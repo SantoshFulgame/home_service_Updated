@@ -31,17 +31,17 @@ To install and run this application locally, follow these steps:
 4. Create a `.env` file in the root directory of the project and add the following environment variables:
 
 **Frontend `.env`**
-REACT_APP_SERVER_DOMIN=http://localhost:8080
-REACT_APP_ADMIN_EMAIL=santoshfulgame71@gmail.com
-REACT_APP_STRIPE_PUBLIC_KEY=pk_test_51PATerSFQMoIzIImyoLIwSBkUkke0uVs2RK2m6LA3DwjxubGxGMAtg0vvCpXe2mZlE6Q0qmPeqDwpP3YtpGrTCGt00rQO6gyp4
+1.REACT_APP_SERVER_DOMIN=http://localhost:8080
+2.REACT_APP_ADMIN_EMAIL=santoshfulgame71@gmail.com
+3.REACT_APP_STRIPE_PUBLIC_KEY=pk_test_51PATerSFQMoIzIImyoLIwSBkUkke0uVs2RK2m6LA3DwjxubGxGMAtg0vvCpXe2mZlE6Q0qmPeqDwpP3YtpGrTCGt00rQO6gyp4
 
 
 **Backend `.env`**
-MONGODB_USERNAME=santoshfulgame71
-MONGODB_PASSWORD=Santosh@2023
-MONGODB_URL=mongodb+srv://santoshfulgame71:Santosh@2023@santosh.yn2aanz.mongodb.net/HomeService?retryWrites=true&w=ma
+1.MONGODB_USERNAME=santoshfulgame71
+2.MONGODB_PASSWORD=Santosh@2023
+3.MONGODB_URL=mongodb+srv://santoshfulgame71:Santosh@2023@santosh.yn2aanz.mongodb.net/HomeService?retryWrites=true&w=ma
 STRIPE_SECRET_KEY=sk_test_51PATerSFQMoIzIImzLpjPhnVXsQZG1g3956w0v155ULPTNkMKOCbRsvYGZP8WG3AgC1Vr4YSiZ84kYlk7RoiipY500N9r85SJ6
-FRONTEND_URL=http://localhost:3000
+4.FRONTEND_URL=http://localhost:3000
 
 5. Start the backend server by running:
 6. Navigate to the `client` directory in your terminal.
